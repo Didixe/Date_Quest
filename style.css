@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "DS-DIGIT";
+    src: url(asset/DS-DIGII.TTF);
+}
+
+div{
+    background-color: gray;
+    width: 350px;
+    text-align: center;
+    align-items: center;
+}
+
+table{
+    border-spacing: 5px;
+}
+
+th{
+    background-color: rgba(255, 0, 0, 0.647);
+    color: white;
+    margin-right: 8px;
+    
+}
+
+td{
+    background-color: black;
+    font-family: "DS-DIGIT";
+}
+
+.destinationTime{
+    color: rgb(222, 15, 15);
+}
+
+.presentTime{
+    color: rgb(28, 203, 28);
+}
+
+.interval{
+    color: yellow;
+}
+
+p{
+    color: white;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.destinationTime>p{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.presentTime>p{
+    margin-left: 115px;
+    margin-right: 115px;
+}
+
+.interval>p{
+    margin-left: 135px;
+    margin-right: 135px;
+}
